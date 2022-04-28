@@ -1,0 +1,26 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class NextIntNextDouble {
+	
+	public static void main(String[] args) {
+	
+		Scanner dado = new Scanner(System.in);
+		
+		System.out.println("IDADE ? ");
+		int idade = dado.nextInt();
+		
+		System.out.println("NOME ? ");
+		String nome = dado.nextLine();
+		
+		System.out.println("SOBRENOME ?");
+		String sobrenome = dado.nextLine();
+		
+		dado.close();
+		
+		System.out.printf("Seu nome é %s %s e você tem %d anos !!!",nome,sobrenome,idade);
+		
+	}
+
+}

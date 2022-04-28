@@ -1,0 +1,17 @@
+package fundamentos;
+
+public class Console {
+	
+	public static void main(String[] args) {
+		
+		//imprimi mensagem na mesma linha 
+		System.out.print("Hello");
+		// \n pula linha 
+		System.out.print("\nOpa");
+		
+		//pula linha após exibir mensagem
+		System.out.println("Olá");
+		
+		
+	}
+}
