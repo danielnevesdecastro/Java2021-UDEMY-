@@ -38,10 +38,7 @@ public class Console {
 		int idade = entrada.nextInt();
 		
 		System.out.printf("Seu nome é %s %s ! %s, você tem %d anos !",nome,sobrenome,nome,idade);
-		
-		
-		//encerra scanner
-	
+		//encerra scanner 
 		entrada.close();
 		
 	}
