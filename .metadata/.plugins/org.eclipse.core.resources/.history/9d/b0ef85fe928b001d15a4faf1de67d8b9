@@ -1,0 +1,15 @@
+package desafios;
+// 59, Desafio 
+import java.util.Scanner;
+
+public class Exe03_Imc {
+	/** 3. Criar um programa que leia o peso e a 
+	 * altura do usuário e imprima no console o IMC. */
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Informe:\n Peso:");
+		
+		
+	}
+}

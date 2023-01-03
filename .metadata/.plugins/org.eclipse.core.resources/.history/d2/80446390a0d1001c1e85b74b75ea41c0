@@ -1,7 +1,0 @@
-package desafios;
-/* Desafio 1 : Criar um programa que leia a temperatura em Fahrenheit
-e converta para Celsius.*/
-
-public class ConversaoTemperatura {
-
-}
