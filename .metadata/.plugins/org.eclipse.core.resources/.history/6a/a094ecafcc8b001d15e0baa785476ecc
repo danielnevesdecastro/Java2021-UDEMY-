@@ -1,0 +1,21 @@
+package controle;
+
+//Aula 62 if  
+import java.util.Scanner;
+
+public class If {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+
+		System.out.println("Informe a Média: ");
+		double media = entrada.nextDouble();
+
+		if (meda <= 10 && media >= 7) {
+			System.out.println("Parabéns");
+			System.out.println("Aprovado");
+		}
+
+		entrada.close();
+	}
+
+}
