@@ -1,5 +1,5 @@
 package desafios;
-//59 desafio 5
+//59 desafio
 import java.util.Scanner;
 
 public class Exe05_Triangulo {

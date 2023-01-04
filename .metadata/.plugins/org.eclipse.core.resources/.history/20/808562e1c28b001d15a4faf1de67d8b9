@@ -1,6 +1,6 @@
 
 package desafios;
-//59, Desafio 2
+
 import java.util.Scanner;
 /** 2. Criar um programa que leia a temperatura 
  * em  Celsius converta para Fahrenheit. */
