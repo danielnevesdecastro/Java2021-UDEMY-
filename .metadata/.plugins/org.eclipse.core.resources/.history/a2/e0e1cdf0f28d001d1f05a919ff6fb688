@@ -12,11 +12,9 @@ public class For3 {
 		}
 		System.out.println("Nº fora " + i);
 		
-		int cont = 1;
-		for (int j = 0; j <10; j++) {
-			for (int k = 0 ; k<10;k++ ) {
-				System.out.printf("\nNº%d %d , %d",cont,j,k);
-				cont++;
+		for (int j = 0; j <=10; j++) {
+			for (int k = 0 ; k<=10;k++ ) {
+				System.out.printf("\n %d , %d",j,k);
 			}
 		}
 	}
