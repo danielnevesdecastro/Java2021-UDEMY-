@@ -16,20 +16,20 @@ public class SwitchSemBreak {
 			System.out.println("Sei o Tekki Shodan");
 		case "roxa":
 			System.out.println("Sei o Heian  Ghodan");
-			break; // para o opção escolhida
-		default: // opção de saída caso nenhuma condição satisfaça a execução do bloco
+			break; //para o opção escolhida 
+		default: // opção de saída caso nenhuma condição satisfaça a execução do bloco 
 			System.out.println("não sei nada");
 		}
-
+		
 		int idade = 3;
 		switch (idade) {
-		case 3:
+		case 3: 
 			System.out.println("sabe falar");
-		case 2:
+		case 2: 
 			System.out.println("sabe Andar");
-		case 1:
+		case 1: 
 			System.out.println("sabe Respirar");
-
-		}
+			
 	}
+}
 }
