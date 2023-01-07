@@ -18,8 +18,5 @@ public class For1 {
 		for (;;) {// ou usar true , para repetir ininitamente;
 			System.out.println("fim !!!");
 		}
-		
-		}
-		
 	}
 }

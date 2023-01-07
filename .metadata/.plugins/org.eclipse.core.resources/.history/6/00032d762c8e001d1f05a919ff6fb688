@@ -18,8 +18,17 @@ public class For1 {
 		for (;;) {// ou usar true , para repetir ininitamente;
 			System.out.println("fim !!!");
 		}
-		
+		int idade = 3;
+		switch (idade) {
+		case 3: 
+			System.out.println("sabe falar");
+		case 2: 
+			System.out.println("sabe falar");
+		case 1: 
+			System.out.println("sabe falar");
+			
+			
 		}
-		
+		}
 	}
 }
