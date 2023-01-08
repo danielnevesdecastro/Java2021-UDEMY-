@@ -1,0 +1,16 @@
+package desafios;
+
+import java.util.Scanner;
+
+//Desafio 86
+public class Contr_09_MaiorNumero {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int maior = 0;
+		
+		
+		for (int i = 1 ; i <= 10; ++i ) {
+			System.out.println("Informe o valor: "+i);
+		}
+	}
+}
