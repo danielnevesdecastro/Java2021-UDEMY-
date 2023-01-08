@@ -23,8 +23,9 @@ public class SwitchComBreak {
 		case 6:
 			conceito = "C";
 			break;
-			default:
+			default://opção padrão caso nenhuma condição seja satisfeita; 
 			conceito = "Inválido !!!";
+			break;
 		}
 		
 		System.out.println("Sua nota "+nota+"\nÉ Conceito "+conceito);
