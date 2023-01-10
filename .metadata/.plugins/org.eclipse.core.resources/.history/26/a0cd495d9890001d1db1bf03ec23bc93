@@ -1,0 +1,30 @@
+package desafios;
+
+import java.util.Scanner;
+
+//Desafio 86
+public class Contr_06_AdvinhacaoNumeros {
+	public static void main(String[] args) {
+		// Advinhar o número
+		int numAdv = 89;
+		int tentativas;
+		Scanner scan = new Scanner(System.in);
+		String advinhacao = "";
+
+		for (tentativas = 11; tentativas > 0; tentativas--) {
+			System.out.println("Advinhe o número");
+			int num = scan.nextInt();
+			System.out.println("Restam " + tentativas + "Tentativas");
+			if (num > numAdv) {
+				advinhacao = " Número Maior";
+			} else if (num < numAdv) {
+				advinhacao = "Número Menor";
+			} else if (num == numAdv) {
+				advinhacao = "\n\n*** Você Acertou !!! ***";
+				break;
+			}
+
+		}
+
+	}
+}
