@@ -1,10 +1,9 @@
 package desafios;
-//Desafio 86
+
 import java.util.Scanner;
 
 public class Contr_08_ContLetra {
 	public static void main(String[] args) {
-		//Recebe palavra e imprime no console letra pro letra;
 		Scanner scanner = new Scanner(System.in);
 
 		System.out.println("Digite a palavra: ");
