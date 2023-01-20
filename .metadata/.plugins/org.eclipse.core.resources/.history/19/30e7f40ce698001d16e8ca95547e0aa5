@@ -1,0 +1,37 @@
+package classe;
+
+//Aula 92 - 96, Classes 
+public class ProdutoTeste {
+	public static void main(String[] args) {
+		// não preciso importar a classe produto por estar no mesmo pacote
+		// mesma coisa com o java.lang;
+
+		// Tipo , nome variável ,atribuição e contrutor : new (instanciar tipo)
+		Produto p1 = new Produto();
+		// notação . pra acessar os menbros(atributos) da instância
+		// intancia novos espaços da memorias com as variaveis de finidas
+		p1.nome = "Notebook";
+		p1.preco = 4356.89;
+		p1.desconto = 0.25;
+		// Chamando o ditpo produto por inferência (var)
+		var p2 = new Produto();
+		p2.nome = "Caneta Touch";
+		p2.preco = 122.56;
+		p2.desconto = 0.29;
+
+		System.out.println(p1.nome);
+		System.out.println(p2.nome);
+
+		double precoFinal1 = p1.precoDesconto(0);
+		double precoFinal2 = p2.precoDesconto(0.5);
+
+		System.out.println(precoFinal1);
+		System.out.println(precoFinal2);
+		double mediaCarrinho = (precoFinal1 + precoFinal2) / 2;
+
+		System.out.printf("Média do carrinho R$ %.2f \n", mediaCarrinho);
+
+		// executando metodo Desconto
+		System.out.printf("Preço final com desconto %s : R$ %.2f",p2.nome, p2.precoDesconto());
+	}
+}

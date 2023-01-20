@@ -1,0 +1,21 @@
+package classe;
+
+//Aula 92,Classes
+public class Produto {
+//Classe tipo produto
+
+	// atributos
+	String nome;
+	double preco;
+	double desconto;
+	
+
+	// fiz por conta própria, para ter uma função pra preçofinal
+	//Descobri que criei um método porteriormente
+	double precoDesconto(double preco, double desconto) {
+
+		return preco * (1 - desconto);
+		
+
+	}
+}

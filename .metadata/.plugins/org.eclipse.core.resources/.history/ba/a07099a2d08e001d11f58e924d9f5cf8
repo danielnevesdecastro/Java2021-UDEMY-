@@ -1,8 +1,0 @@
-package controle;
-//Aula 83, Break rotulado
-public class BreakRotulado {
-	public static void main(String[] args) {
-		//evite o uso !! 
-		
-	}
-}

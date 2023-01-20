@@ -1,0 +1,18 @@
+package classe;
+//Aula 92,Classes
+public class Produto {
+//Classe tipo produto
+	
+	//atributos
+	String nome;
+	double preco;
+	double desconto;
+	double precoDesconto;
+	
+	public void precoFinal (double preco ,double desconto) {
+		
+		precoDesconto = preco * (1 - desconto);
+		System.out.printf("Média do carrinho R$ %.2f", precoDesconto);
+		
+	}
+}

@@ -1,0 +1,18 @@
+package classe;
+
+//Aula 92,Classes
+public class Produto {
+//Classe tipo produto
+
+	// atributos
+	String nome;
+	double preco;
+	double desconto;
+
+	// método desconto
+	double precoDesconto() {
+
+		return preco * (1 - desconto);
+
+	}
+}
