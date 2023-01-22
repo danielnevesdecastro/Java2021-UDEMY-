@@ -23,10 +23,6 @@ public class DataTeste {
 	
 		
 		System.out.println(d1.dataFormatada());
-		System.out.println(d2.dataFormatada());
-		System.out.println(d1.dataExtenso());
-		System.out.println(d2.dataExtenso());
-
 	}
 
 } 

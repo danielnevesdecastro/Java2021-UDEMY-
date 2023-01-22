@@ -21,12 +21,8 @@ public class DataTeste {
 		System.out.printf("Data 2 : %d , de %d de %d \n", d2.dia, d2.mes, d2.ano);
 	
 	
-		
-		System.out.println(d1.dataFormatada());
-		System.out.println(d2.dataFormatada());
-		System.out.println(d1.dataExtenso());
-		System.out.println(d2.dataExtenso());
-
+		String dataF =d1.dia + "/" ; 
+		System.out.println(dataF);
 	}
 
 } 

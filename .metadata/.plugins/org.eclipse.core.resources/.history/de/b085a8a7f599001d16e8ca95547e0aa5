@@ -1,0 +1,16 @@
+package classe;
+
+//94 , Classe - Desafio Data
+public class Data {
+
+	int dia, mes, ano;
+
+	
+	String dataFormatada( ) {
+		 String dataF =dia + " / " + mes + " / "+ ano  +"." ; 
+		
+		return dataF;
+	}
+	
+}
+
