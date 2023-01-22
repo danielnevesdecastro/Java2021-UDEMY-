@@ -6,12 +6,11 @@ public class Data {
 	int dia, mes, ano;
 
 	String dataFormatada() {
-		
+		String dataF = dia + " / " + mes + " / " + ano + ".";
 
-		return String.format("Data: %d, de %d de %d.  ", dia, mes , ano);
+		return dataF;
 	}
 
-	// Minha inveção a nivel de Desafio , resolveu ;)
 	String dataExtenso() {
 		String dataEx ="Data: "+ dia + ", de " + mes +" de "+ ano ;
 
