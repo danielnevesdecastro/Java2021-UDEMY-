@@ -1,6 +1,6 @@
 package classe;
 
-//Aula 92 - 102, Classes 
+//Aula 92 - 96, Classes 
 public class ProdutoTeste {
 	public static void main(String[] args) {
 		// não preciso importar a classe produto por estar no mesmo pacote

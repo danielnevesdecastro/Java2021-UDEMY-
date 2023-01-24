@@ -1,6 +1,6 @@
 package classe;
 
-//94 - 102 , Classe - Desafio Data
+//94 , Classe - Desafio Data
 public class DataTeste {
 	public static void main(String[] args) {
 

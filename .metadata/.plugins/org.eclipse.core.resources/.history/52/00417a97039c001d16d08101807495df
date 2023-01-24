@@ -1,0 +1,25 @@
+package classe;
+
+//Aula 104 , Menbros de Classe vs Objeto
+public class AreaCirc {
+
+	double raio;
+	double pi;
+
+	// Construtor Default
+	AreaCirc() {
+	}
+	// Construtor Explícito (com parametros)
+	AreaCirc(double raioInicial) {
+		pi = 3.14;
+		raio = raioInicial;
+	}
+	//Método
+	double area() {
+		//pi x raio²
+		//return pi * raio * raio; forma manual
+		return pi*Math.pow(raio, 2);
+		
+	}
+
+}

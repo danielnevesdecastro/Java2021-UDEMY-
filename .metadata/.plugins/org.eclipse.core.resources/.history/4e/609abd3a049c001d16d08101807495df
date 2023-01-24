@@ -1,0 +1,18 @@
+package classe;
+//Aula 104 , Menbros de Classe vs Objeto
+public class AreaCircTeste {
+	public static void main(String[] args) {
+		
+		//pi = menbro da classe 
+		AreaCirc a1 = new AreaCirc(5.6);
+		a1.pi = 10;
+		System.out.println("PI: "+AreaCirc.pi +" Raio:"+ a1.raio+" Area:"+ a1.area());
+		
+		//pi , raio= menbro da instancia 
+		AreaCirc a2 = new AreaCirc();
+		
+		double areaResul = a2.area();
+		System.out.println("PI: "+a2.pi +" Raio:"+ a2.raio+" Area:"+areaResul);
+		
+	}
+}
