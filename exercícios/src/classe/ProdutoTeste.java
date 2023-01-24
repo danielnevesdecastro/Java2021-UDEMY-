@@ -7,14 +7,17 @@ public class ProdutoTeste {
 		// mesma coisa com o java.lang;
 
 		// Tipo , nome variável ,atribuição e contrutor : new (instanciar tipo)
-		Produto p1 = new Produto();
-		// notação . pra acessar os menbros(atributos) da instância
-		// intancia novos espaços da memorias com as variaveis de finidas
-		p1.nome = "Notebook";
-		p1.preco = 4356.89;
-		p1.desconto = 0.25;
-		// Chamando o ditpo produto por inferência (var)
-		var p2 = new Produto();
+		//Construtor Explicito (parâmetros)
+		Produto p1 = new Produto("Notebook",4356.89, 0.25); 
+		/*Como seria com o construtor padrão:
+		*p1.nome = "Notebook";
+		*p1.preco = 4356.89;
+		*p1.desconto = 0.25;*/
+		
+		//Chamando o tipo produto por inferência (var)
+		var p2 = new Produto();//instância com o construtor default 
+		//notação . pra acessa.r os menbros(atributos) da instância
+		//intancia novos espaços da memorias com as variaveis de finidas
 		p2.nome = "Caneta Touch";
 		p2.preco = 12.56;
 		p2.desconto = 0.29;
