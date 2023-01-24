@@ -15,12 +15,12 @@ public class ProdutoTeste {
 		*p1.desconto = 0.25;*/
 		
 		//Chamando o tipo produto por inferência (var)
-		var p2 = new Produto();//instância com o construtor default 
+		var p2 = new Produto(0.35);//instância com o construtor default 
 		//notação . pra acessa.r os menbros(atributos) da instância
 		//intancia novos espaços da memorias com as variaveis de finidas
 		p2.nome = "Caneta Touch";
 		p2.preco = 10.00;
-		//Produto.desconto = 0.;
+		//.desconto = 0.35;
 
 		System.out.println(p1.nome);
 		System.out.println(p2.nome);

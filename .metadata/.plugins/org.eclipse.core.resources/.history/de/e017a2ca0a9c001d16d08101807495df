@@ -20,7 +20,7 @@ public class ProdutoTeste {
 		//intancia novos espaços da memorias com as variaveis de finidas
 		p2.nome = "Caneta Touch";
 		p2.preco = 10.00;
-		//Produto.desconto = 0.;
+		//.desconto = 0.35;
 
 		System.out.println(p1.nome);
 		System.out.println(p2.nome);
@@ -32,8 +32,8 @@ public class ProdutoTeste {
 
 		System.out.printf("Média do carrinho R$ %.2f \n", mediaCarrinho);
 		// executando metodo Desconto
-		System.out.printf("\nPreço final com desconto %s : R$ %.2f",p1.nome, p1.precoDesconto());
-		System.out.printf("\nPreço final com desconto %s : R$ %.2f",p2.nome, p2.precoDesconto());
+		System.out.printf("Preço final com desconto %s : R$ %.2f",p1.nome, p1.precoDesconto());
+		System.out.printf("Preço final com desconto %s : R$ %.2f",p2.nome, p2.precoDesconto());
 		
 		
 	}

@@ -17,8 +17,8 @@ public class Produto {
 	}
 	// Criando Construtor default (parâmetro implícito) para q se possa usar os dois contrutores 
 	//se o contrutor tiver qualquer retorno , mesmo void , passa a ser um método
-	Produto(){
-		
+	Produto(double descontoEspec){
+		desconto = descontoEspec;
 	}
 	// método desconto
 	double precoDesconto() {

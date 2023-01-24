@@ -7,13 +7,13 @@ public class Produto {
 	// atributos
 	String nome;
 	double preco;
-	static double desconto = 0.25;
+	static double desconto;
 
 	// Criando Construtor (parâmetro explícito)
 	Produto(String nomeInicial, double precoInicial) {
 		nome = nomeInicial;
 		preco = precoInicial;
-		
+		desconto = 0.25;
 	}
 	// Criando Construtor default (parâmetro implícito) para q se possa usar os dois contrutores 
 	//se o contrutor tiver qualquer retorno , mesmo void , passa a ser um método
@@ -21,9 +21,9 @@ public class Produto {
 		
 	}
 	// método desconto
-	double precoDesconto() {
+	double precoDesconto(double descontoGerente) {
 		
-		return preco * (1 - desconto );
+		return preco * (1 - (desconto + descontoGerente));
 
 	}
 	

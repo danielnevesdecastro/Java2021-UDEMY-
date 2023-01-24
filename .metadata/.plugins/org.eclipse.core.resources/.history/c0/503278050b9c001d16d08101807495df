@@ -20,7 +20,7 @@ public class ProdutoTeste {
 		//intancia novos espaços da memorias com as variaveis de finidas
 		p2.nome = "Caneta Touch";
 		p2.preco = 10.00;
-		//Produto.desconto = 0.;
+		//.desconto = 0.35;
 
 		System.out.println(p1.nome);
 		System.out.println(p2.nome);

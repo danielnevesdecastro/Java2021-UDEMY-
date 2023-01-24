@@ -8,7 +8,7 @@ public class ProdutoTeste {
 
 		// Tipo , nome variável ,atribuição e contrutor : new (instanciar tipo)
 		//Construtor Explicito (parâmetros)
-		Produto p1 = new Produto("Notebook",1000.00); 
+		Produto p1 = new Produto("Notebook",4356.89); 
 		/*Como seria com o construtor padrão:
 		*p1.nome = "Notebook";
 		*p1.preco = 4356.89;
@@ -19,22 +19,22 @@ public class ProdutoTeste {
 		//notação . pra acessa.r os menbros(atributos) da instância
 		//intancia novos espaços da memorias com as variaveis de finidas
 		p2.nome = "Caneta Touch";
-		p2.preco = 10.00;
-		//Produto.desconto = 0.;
+		p2.preco = 12.56;
+		Produto.desconto = 0.35;
 
 		System.out.println(p1.nome);
 		System.out.println(p2.nome);
 
-		
-		System.out.println(p1.precoDesconto());
-		System.out.println(p2.precoDesconto());
-		double mediaCarrinho = (p1.precoDesconto() + p2.precoDesconto()) / 2;
+		double precoFinal1 = p1.precoDesconto(0);
+		double precoFinal2 = p2.precoDesconto(0.10);
+
+		System.out.println(precoFinal1);
+		System.out.println(precoFinal2);
+		double mediaCarrinho = (precoFinal1 + precoFinal2) / 2;
 
 		System.out.printf("Média do carrinho R$ %.2f \n", mediaCarrinho);
+
 		// executando metodo Desconto
-		System.out.printf("\nPreço final com desconto %s : R$ %.2f",p1.nome, p1.precoDesconto());
-		System.out.printf("\nPreço final com desconto %s : R$ %.2f",p2.nome, p2.precoDesconto());
-		
-		
+		System.out.printf("Preço final com desconto %s : R$ %.2f",p2.nome, precoFinal2);
 	}
 }
