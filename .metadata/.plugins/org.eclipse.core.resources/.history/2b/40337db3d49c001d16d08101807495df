@@ -1,0 +1,47 @@
+package classe;
+// Aula 107,108 Atribuição por valor vs referência 
+public class ValorVsReferenia {
+	public static void main(String[] args) {
+		// Atribuição por valor (Tipo primitivo)
+		double a = 2;
+		double b = a;// atri. por valor, b = 2 , cópia do valor de a
+		a++;
+		b--;
+		System.out.println("Valor de A: " + a + "\nValor de B: " + b);
+
+		// Atribuição por Referencia (Objeto)
+		Data d1 = new Data(25, 01, 2023);
+		Data d2 = d1; // Atribuição por referência, d2 = endereço de memoria de d1
+		d1.dia = 31;
+		d2.mes = 12;
+
+		// mesmo resultado , por conta da atribuição
+		System.out.println(d1.dataFormatada());
+		System.out.println(d2.dataFormatada());
+		
+		voltaDataValorDefault(d1);
+		System.out.println("Default: D1 "+d1.dataFormatada());
+		System.out.println("Default: D2 "+d2.dataFormatada());
+		
+		int c =5;
+		alterarPrimitivo(c);
+		int d = c;
+		System.out.println("Valor de C : "+c+" "+d);
+
+	}
+	
+	//Método estatico
+	//Método estatico so consegue acessar outro metodo statico
+	//consigo acessar o método (já instaciado)na classe a partir de um metodo nessa mesma classe 
+	static void voltaDataValorDefault(Data d) {
+		d.dia = 1;
+		d.mes = 1;
+		d.ano = 1970;
+		
+	}
+	//método 
+	static void alterarPrimitivo(int a) {
+		a++;	
+	}
+
+}

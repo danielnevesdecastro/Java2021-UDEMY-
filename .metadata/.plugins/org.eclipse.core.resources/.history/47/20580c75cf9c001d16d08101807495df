@@ -1,0 +1,18 @@
+package classe;
+// Aula 107,108 Atribuição por valor vs referência 
+public class ValorVsReferenia {
+	public static void main(String[] args) {
+		//Atribuição por valor (Tipo primitivo)
+		double a = 2;
+		double b = a ;// b = 2 , cópia do valor de a 
+		a ++;
+		b--;
+		System.out.println("Valor de A: "+a+"\nValor de B: "+b);
+		
+		//Atribuição por Referencia (Objeto)
+		Data d1 = new Data (25, 01 , 2023);
+		
+		d1.dataFormatada();
+		
+	}
+}

@@ -22,9 +22,9 @@ public class Produto {
 	}
 	// método desconto
 	double precoDesconto() {
-
-		return preco * (1 - desconto);
+		
+		return preco * (1 - desconto );
 
 	}
-
+	
 }
