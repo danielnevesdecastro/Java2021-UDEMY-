@@ -10,7 +10,7 @@ public class Data {
 		//dia = 01;
 		//mes = 01;
 		//ano = 1970;
-		//chamando metodo construtor dentro do construtor
+		//chamando construtor dentro do construtor
 		this(1, 1 ,1970);
 	}
 	//Construtor Explicito (parâmetros)
@@ -45,4 +45,7 @@ public class Data {
 		
 	}
 
+	static void teste() {
+		this.dia = 3;
+	}
 }
