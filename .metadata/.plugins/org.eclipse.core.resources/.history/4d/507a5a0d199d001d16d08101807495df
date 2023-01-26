@@ -18,7 +18,6 @@ public class DataTeste {
 		d1.ano = 1994;
 		*/
 		
-		
 		/* usando Construtor Explicito acima
 		d2.dia = 20;
 		d2.mes = 1;

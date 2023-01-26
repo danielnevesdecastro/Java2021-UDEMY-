@@ -1,0 +1,14 @@
+package classe;
+
+public class Valornulo {
+	String s2;
+	public static void main(String[] args) {
+		
+		//objeto criado
+		String s1="";
+		System.out.println(s1.concat("!!!"));
+		
+		
+		System.out.println(Valornulo.s2);
+	}
+}

@@ -3,9 +3,9 @@ package classe;
 //94 - 102 , Classe - Desafio Data
 public class Data {
 
-	int dia, mes, ano;
-
-	// Construtor Default, sendo declarado para fazer uso de ambos
+	int dia ,mes , ano;
+	
+	//Construtor Default, sendo declarado para fazer uso de ambos
 	Data(){
 		//dia = 01;
 		//mes = 01;
@@ -15,19 +15,15 @@ public class Data {
 	}
 	//Construtor Explicito (parâmetros)
 	//this = referenciar a variavel da classe 
-	Data(int dia, int mes, int ano) {
+	Data(int dia,int mes,int ano){
 		this.dia = dia;
 		this.mes = mes;
 		this.ano = ano;
 	}
-	
-	
+
 	String dataFormatada() {
 
-		// Variável deixa de ser local se sair do método , e o fianl o torna uma
-		// constante
-		final String formato = "\nData: %d, de %d de %d.  ";
-		return String.format(formato, dia, mes, ano);
+		return String.format("Data: %d, de %d de %d.  ", dia, mes, ano);
 	}
 
 	// Minha inveção a nivel de Desafio , resolveu ;)
@@ -41,11 +37,12 @@ public class Data {
 	// void , ausença de retorno
 	void imprimirDataFormat() {
 
-		System.out.printf("\nData: %d, de %d de %d.\n", dia, mes, ano);
+		System.out.printf("\nData: %d, de %d de %d.\n", dia, mes , ano);
 		System.out.println(dataFormatada());
-		// usando this como objeto
+		//usando this como objeto
 		System.out.println(this.dataFormatada());
-
+		
+		
 	}
 
 }
