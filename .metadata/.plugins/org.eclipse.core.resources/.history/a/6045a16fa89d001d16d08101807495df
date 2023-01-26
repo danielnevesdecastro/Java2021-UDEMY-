@@ -22,7 +22,7 @@ public class Pessoa {
 			this.peso += comida.peso;
 		}
 	}
-	//Método para se apresentar , printar 
+
 	String apresentar() {
 		return "olá eu sou o " + nome + "\ne tenho " + peso + "Kgs";
 	}
