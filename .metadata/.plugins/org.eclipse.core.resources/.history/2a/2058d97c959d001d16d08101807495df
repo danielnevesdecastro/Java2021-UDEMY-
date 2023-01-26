@@ -1,0 +1,12 @@
+package desafios.classe;
+
+public class Comida {
+	// Atributos
+	String nome;
+	double peso;
+
+	Comida(Sting nome, double peso) {
+		this.nome = nome;
+		this.peso = peso;
+	}
+}

@@ -1,0 +1,27 @@
+package desafios.classe;
+
+public class Pessoa {
+	// Atributos
+	String nome;
+	double peso;
+
+	// construtor default
+	Pessoa() {
+
+	}
+
+	// construtor Explitico
+	Pessoa(String nome, double peso) {
+		this.nome = nome;
+		this.peso = peso;
+	}
+	//Método comer , retornma nada 
+	void comer(Comida comida) {
+		if (comida != null) {
+		this.peso += comida.peso;
+		}
+	}
+	String apresentar() {
+		return "olá eu sou o " + nome +"\ne tenho " + peso + "Kgs";
+	}
+}

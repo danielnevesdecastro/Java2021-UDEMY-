@@ -1,0 +1,34 @@
+package desafios.classe;
+
+import java.util.Scanner;
+
+public class Jantar {
+	public static void main(String[] args) {
+		
+		Pessoa p1 = new Pessoa();
+		Comida c1 = new Comida();
+		Comida c2 = new Comida();
+		c1.nome = "Feijão";
+		c1.peso = 0.950;
+		
+		c2.nome = "Arroz";
+		c2.peso = 500;
+		
+		
+		
+		Scanner scan = new Scanner(System.in);
+		
+		
+		System.out.println("Nome:\n");
+		p1.nome = scan.next();
+		System.out.println("Peso");
+		p1.peso = scan.nextDouble();
+		
+		p1.comer(c1.peso);
+		
+		System.out.printf("%s tinha %.3f , depois de comer \n"
+				+ "%s está com %.3f ", p1.nome, p1.peso, c1.nome, p1.pesoDepois );
+		
+		scan.close();
+	}
+}
