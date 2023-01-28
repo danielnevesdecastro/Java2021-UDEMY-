@@ -19,15 +19,15 @@ public class Desafio {
 			notasAlunos[i] = scan.nextDouble();
 
 		}
-
+		
 		double soma = 0;
-		for (double nota : notasAlunos) {
+		for (double nota: notasAlunos) {
 			soma += nota;
 		}
-
 		double media = soma / notasAlunos.length;
-		System.out.printf("\nForam informadas %d Notas e a \nMédia é:%.1f ", 
-				notasAlunos.length, media);
+		
+		System.out.printf("\nForam informadas %d Notas e a \nMédia é:%.1f "
+				,notasAlunos.length,media );
 		scan.close();
 
 	}
