@@ -1,0 +1,6 @@
+package classe.equals;
+//Aula 126,127 , equals e Hashcode
+public class Usuario {
+	String nome;
+	String email;
+}
