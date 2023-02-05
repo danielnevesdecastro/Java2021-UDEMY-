@@ -25,11 +25,11 @@ public class Fila {
 		//fila.clear();//limpar fila 
 		System.out.println(fila.isEmpty());
 		
-		System.out.println(fila.poll());//retorna o primeor da fila removendo-o
+		System.out.println(fila.poll());//retorna o primeiro da fila removendo-o, se vazia retorna null
 		System.out.println(fila.poll());
 		System.out.println(fila.poll());
 		System.out.println(fila.size());//tamanho da fila
-		System.out.println(fila.remove());//faz um trabalho parecido do pool
+		System.out.println(fila.remove());//parecido com pool,lança exceção se lista vazia 
 		System.out.println(fila.size());//tamanho da fila
 		
 	}
