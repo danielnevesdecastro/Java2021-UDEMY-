@@ -27,7 +27,7 @@ public class Mapa {
 
 		System.out.println(usuarios.get(4));// retorna elemento da chave
 		System.out.println("Removido " + usuarios.remove(3));// remover elemento pela chave, retorna o valor da cahve
-		System.out.println("Removido " + usuarios.remove(2 , "Ricardo"));// remover elemento chavee/valor , retorna boolean
+		System.out.println("Removido " + usuarios.remove(2 , "Ricardo"));// remover elemento chavee/val , retorna boolean
 
 		// percorrer elementos de um Map
 
