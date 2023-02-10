@@ -5,7 +5,7 @@ import java.util.List;
 //Aula 143 - OO - Composição n pra n
 public class Curso {
 	final String nome;
-	final List<Aluno> alunos = new ArrayList<>();
+	final List<Aluno> alunos = new ArrayList<Aluno>();
 	
 	Curso (String nome){
 		this.nome = nome;
