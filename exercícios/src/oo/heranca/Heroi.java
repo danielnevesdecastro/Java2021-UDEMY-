@@ -1,7 +1,7 @@
 package oo.heranca;
 //Aula 153,154 - OO , Herança
 
-//extends = defini herança 
+//extends = definir herança 
 public class Heroi extends Jogador { // heroi recebe jogador para reuso
 	
 	

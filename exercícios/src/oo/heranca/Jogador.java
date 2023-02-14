@@ -1,6 +1,6 @@
 package oo.heranca;
 
-//Aula 152,153,154 - OO - Enum , Herança
+//Aula 152 a 154 - OO - Enum , Herança
 public class Jogador {
 	int vida = 100;
 	int x;
