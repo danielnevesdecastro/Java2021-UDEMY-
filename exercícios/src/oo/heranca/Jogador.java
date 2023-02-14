@@ -6,6 +6,10 @@ public class Jogador {
 	int x;
 	int y;
 
+	public Jogador(int x , int y) {
+		this.x = x;
+		this.y = y;
+	}
 	boolean atacar(Jogador oponente) {
 		int deltax = Math.abs(this.x - oponente.x);
 		int deltay = Math.abs(this.y - oponente.y);

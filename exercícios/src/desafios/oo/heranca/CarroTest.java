@@ -4,14 +4,15 @@ package desafios.oo.heranca;
 public class CarroTest {
 	public static void main(String[] args) {
 
-		Carro civic = new Civic();
+		Carro civic = new Civic(12);
 		Carro ferrari = new Ferrari();
-		
 		System.out.println(civic.toString());
 		System.out.println(ferrari.toString());
 
 		civic.acelerar();
 		civic.acelerar();
+		civic.acelerar();
+		ferrari.acelerar();
 		ferrari.acelerar();
 		ferrari.acelerar();
 		System.out.println(civic.toString());

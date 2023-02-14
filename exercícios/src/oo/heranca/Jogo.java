@@ -7,11 +7,8 @@ public class Jogo {
 		Jogador monstro = new Monstro();
 		monstro.x = 10;
 		monstro.y = 10;
-		Jogador heroi = new Heroi(); // polimorfismo
-		heroi.x = 10;
-		heroi.y = 11;
-
-		
+		Jogador heroi = new Heroi(10, 11); // polimorfismo
+				
 		System.out.println("Monstro life: "+ monstro.vida);
 		System.out.println("Heroi life: "+ heroi.vida);
 
