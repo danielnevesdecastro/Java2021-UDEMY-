@@ -14,7 +14,7 @@ public class Aluno {
 		this.nome = nome;
 
 	}
-
+	//relacionamento bidirecional com curso
 	void adicionarCurso(Curso curso) {
 		this.cursos.add(curso);
 		curso.alunos.add(this);

@@ -10,7 +10,7 @@ public class Curso {
 	Curso (String nome){
 		this.nome = nome;
 	}
-	
+	//relacionamento bidirecional  com aluno
 	void adicionarAluno(Aluno aluno){
 		this.alunos.add(aluno);
 		aluno.cursos.add(this);
