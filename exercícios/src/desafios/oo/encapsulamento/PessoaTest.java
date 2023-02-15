@@ -14,9 +14,12 @@ public class PessoaTest {
 		p1.setIdade(30);// alterar
 		System.out.println(p1.getIdade());// ler
 
-		p1.setNome("Daniel Neves");// alterar
+		p1.setNome("Daniel");// alterar
+		p1.setSobrenome("Neves");// alterar
 		System.out.println(p1.getNome());// ler
 		
 		System.out.println(p1.toString());
+		
+		System.out.println(p1.nomeCompleto());
 	}
 }

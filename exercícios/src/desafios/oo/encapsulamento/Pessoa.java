@@ -4,6 +4,31 @@ package desafios.oo.encapsulamento;
 public class Pessoa {
 	private int idade;
 	private String nome;
+	private String sobrenome;
+	
+	
+	
+	public Pessoa () {
+		
+	}
+	
+	public Pessoa (String nome, int idade, String sobrenome) {
+		setNome(nome);
+		setIdade(idade);
+		setSobrenome(sobrenome);
+		
+	}
+	
+	
+	public String getSobrenome() {
+		return sobrenome;
+	}
+
+
+	public void setSobrenome(String sobrenome) {
+		this.sobrenome = sobrenome;
+	}
+
 
 	// getter - LER
 	public int getIdade() {
@@ -21,6 +46,11 @@ public class Pessoa {
 
 	public void setNome(String nome) {
 		this.nome = nome;
+	}
+	
+	//atributo calculado
+	public String nomeCompleto() {
+		return getNome() + " "+ getSobrenome();
 	}
 
 	public String toString() {
