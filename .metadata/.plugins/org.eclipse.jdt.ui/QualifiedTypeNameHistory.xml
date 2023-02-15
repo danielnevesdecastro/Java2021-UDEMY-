@@ -27,6 +27,11 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="colecoes.Lista"/>
-    <fullyQualifiedTypeName name="desafios.oo.composicao.Produto"/>
     <fullyQualifiedTypeName name="desafios.oo.composicao.Item"/>
+    <fullyQualifiedTypeName name="oo.heranca.Direcao"/>
+    <fullyQualifiedTypeName name="desafios.oo.composicao.Produto"/>
+    <fullyQualifiedTypeName name="desafios.oo.encapsulamento.casaA.Ana"/>
+    <fullyQualifiedTypeName name="desafios.oo.heranca.Carro"/>
+    <fullyQualifiedTypeName name="oo.heranca.Jogador"/>
+    <fullyQualifiedTypeName name="oo.heranca.teste.CarroTest"/>
 </qualifiedTypeNameHistroy>

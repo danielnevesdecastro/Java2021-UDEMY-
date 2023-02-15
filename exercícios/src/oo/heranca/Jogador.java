@@ -2,15 +2,16 @@ package oo.heranca;
 
 //Aula 152 a 154 - OO - Enum , Herança
 public class Jogador {
-	@SuppressWarnings("unused")
+
 	public int vida = 100;
 	private int x;
 	private int y;
 
-	protected Jogador(int x , int y) {
+	protected Jogador(int x, int y) {
 		this.x = x;
 		this.y = y;
 	}
+
 	public boolean atacar(Jogador oponente) {
 		int deltax = Math.abs(this.x - oponente.x);
 		int deltay = Math.abs(this.y - oponente.y);
