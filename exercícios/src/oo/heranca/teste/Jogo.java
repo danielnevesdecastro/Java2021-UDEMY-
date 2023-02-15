@@ -1,12 +1,17 @@
-package oo.heranca;
+package oo.heranca.teste;
+
+import oo.heranca.Direcao;
+import oo.heranca.Heroi;
+import oo.heranca.Jogador;
+import oo.heranca.Monstro;
 
 //Aula 152 a 154 - OO - Enum , Herança
 public class Jogo {
 	public static void main(String[] args) {
 
-		Jogador monstro = new Monstro();
-		monstro.x = 10;
-		monstro.y = 10;
+		Jogador monstro = new Monstro(10 , 10);
+		//monstro.x = 10;
+		//monstro.y = 10;
 		Jogador heroi = new Heroi(10, 11); // polimorfismo
 				
 		System.out.println("Monstro life: "+ monstro.vida);

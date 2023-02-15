@@ -2,23 +2,23 @@ package desafios.oo.heranca;
 //Aula 155 ,156 - Desafio herança
 
 public class Carro {
-	final int VELOCIDADE_MAXIMA;
-	int velocidadeAtual;
-	int delta = 5;
+	public final int VELOCIDADE_MAXIMA;
+	public int velocidadeAtual;
+	protected int delta = 5;
 
-	Carro(int velocidadeMaxima) {
+	protected Carro(int velocidadeMaxima) {
 		this.VELOCIDADE_MAXIMA = velocidadeMaxima;
 	}
 
-	void acelerar() {
-		if( velocidadeAtual + delta > VELOCIDADE_MAXIMA) {
+	public void acelerar() {
+		if (velocidadeAtual + delta > VELOCIDADE_MAXIMA) {
 			velocidadeAtual = VELOCIDADE_MAXIMA;
-		}else {
+		} else {
 			velocidadeAtual += delta;
 		}
 	}
 
-	void freiar() {
+	public void freiar() {
 		if (this.velocidadeAtual >= 5) {
 			this.velocidadeAtual -= 5;
 		} else {
@@ -28,5 +28,9 @@ public class Carro {
 
 	public String toString() {
 		return "Velocidade atual: " + this.velocidadeAtual + " Km/h";
+	}
+
+	protected int getVelocidadeAtual() {
+		return velocidadeAtual;
 	}
 }

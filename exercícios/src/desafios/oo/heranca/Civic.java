@@ -4,7 +4,7 @@ package desafios.oo.heranca;
 public class Civic extends Carro {
 
 	//construtor padrão explicito , q receve o construtor da classe pai
-	Civic (int velocidadeMáxima){
+	public Civic (int velocidadeMáxima){
 		super(velocidadeMáxima);
 	}
 }

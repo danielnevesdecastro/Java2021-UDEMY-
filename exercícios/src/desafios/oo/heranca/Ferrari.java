@@ -4,19 +4,19 @@ package desafios.oo.heranca;
 public class Ferrari extends Carro {
 	
 	//construtor default da calsse que receve o construtor explicito da classe atual
-	Ferrari (){
+	 public Ferrari (){
 		this (315);
 	}
 	
 	//construtor padrão explicito , q receve o construtor da classe pai
-	Ferrari (int velocidadeMaxima){
+	 public Ferrari (int velocidadeMaxima){
 		super(velocidadeMaxima);
 		delta = 450;
 	}
 	
 	
-	void freiar () {
-		if (super.velocidadeAtual >= 10)
+	public void freiar () {
+		if (super.getVelocidadeAtual() >= 10)
 		super.freiar();
 		super.freiar();
 	}

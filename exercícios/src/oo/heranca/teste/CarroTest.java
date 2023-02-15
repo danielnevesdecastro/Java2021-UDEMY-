@@ -1,5 +1,9 @@
-package desafios.oo.heranca;
+package oo.heranca.teste;
 //Aula 155 ,156 - Desafio herança
+
+import desafios.oo.heranca.Carro;
+import desafios.oo.heranca.Civic;
+import desafios.oo.heranca.Ferrari;
 
 public class CarroTest {
 	public static void main(String[] args) {
