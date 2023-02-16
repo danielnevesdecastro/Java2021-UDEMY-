@@ -1,6 +1,6 @@
 package oo.polimorfismo;
-//Aula 166 - 00, Polimorfismo
-public class Comida { // Superclasse , classe generica
+//Aula 166,169 - 00, Polimorfismo, classe abstrata
+public abstract class Comida { // Superclasse , classe generica
 	private double peso; 
 	
 	

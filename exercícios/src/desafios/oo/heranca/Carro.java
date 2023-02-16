@@ -1,7 +1,7 @@
 package desafios.oo.heranca;
 //Aula 155 ,156 - Desafio herança
 
-public class Carro {
+public abstract class Carro {//classe abstrata, nao pode ser instanciada, serve pra ser herdada
 	public final int VELOCIDADE_MAXIMA;
 	public int velocidadeAtual;
 	private int delta = 5;

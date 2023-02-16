@@ -34,6 +34,7 @@ public class CarroTest {
 		ferrari.desligarTurbo();
 		System.out.println(civic.toString());
 		System.out.println("Ferrari, "+ferrari.toString());
+		System.out.println(ferrari.nivelDoAR());
 		
 		
 		

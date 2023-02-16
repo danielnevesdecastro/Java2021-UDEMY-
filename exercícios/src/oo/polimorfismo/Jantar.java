@@ -1,6 +1,5 @@
 package oo.polimorfismo;
-//Aula 165 - 00, Polimorfismo
-
+//169 - 00, Polimorfismo, classe abstrata
 public class Jantar {
 	public static void main(String[] args) {
 		Pessoa convidado = new Pessoa(99.65);
