@@ -9,7 +9,7 @@ public class CarroTest {
 	public static void main(String[] args) {
 
 		Carro civic = new Civic(12);
-		Carro ferrari = new Ferrari();
+		Ferrari ferrari = new Ferrari(315);
 		System.out.println(civic.toString());
 		System.out.println(ferrari.toString());
 
@@ -19,14 +19,21 @@ public class CarroTest {
 		ferrari.acelerar();
 		ferrari.acelerar();
 		ferrari.acelerar();
+		System.out.println("Ferrari, "+ferrari.toString());
+		
+		ferrari.ligarTurbo();
+		ferrari.ligarAr();
+		ferrari.acelerar();
+		
 		System.out.println(civic.toString());
-		System.out.println(ferrari.toString());
+		System.out.println("Ferrari, "+ferrari.toString());
 		
 		civic.freiar();
 		ferrari.freiar();
 		ferrari.freiar();
+		ferrari.desligarTurbo();
 		System.out.println(civic.toString());
-		System.out.println(ferrari.toString());
+		System.out.println("Ferrari, "+ferrari.toString());
 		
 		
 		

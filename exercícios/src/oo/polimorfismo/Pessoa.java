@@ -1,6 +1,6 @@
 package oo.polimorfismo;
 
-//Aula 165 - 00, Polimorfismo
+//Aula 165,166 - 00, Polimorfismo
 public class Pessoa {
 	private double peso;
 
