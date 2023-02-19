@@ -12,7 +12,6 @@ public class ExplorandoMath {
 		System.out.println(Math.ceil(6.58));//arredonda pra cima
 		System.out.println(Math.floor(6.58));//arredonda pra baixo
 		System.out.println(Math.random());//gera valor random
-		//System.out.println(Math.);//
-		//System.out.println(Math.);//
+		
 	}
 }
