@@ -10,5 +10,7 @@ public class CalculoTeste2 {
 		soma = (x, y)-> x*y;//sem chaves , retorno implicito
 		System.out.println(soma.executar(2, 3));
 		
+		System.out.println(soma.legal());
+		System.out.println(Calculo.muitoLegal());
 	}	
 }
