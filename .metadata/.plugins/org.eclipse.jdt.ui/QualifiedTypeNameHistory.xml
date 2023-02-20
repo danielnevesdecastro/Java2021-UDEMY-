@@ -7,7 +7,6 @@
     <fullyQualifiedTypeName name="arrays.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="javax.print.attribute.HashAttributeSet"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
@@ -24,7 +23,6 @@
     <fullyQualifiedTypeName name="oo.composicao.PortaCarro"/>
     <fullyQualifiedTypeName name="oo.composicao.Item"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="colecoes.Lista"/>
     <fullyQualifiedTypeName name="desafios.oo.composicao.Item"/>
     <fullyQualifiedTypeName name="oo.heranca.Direcao"/>
@@ -35,4 +33,12 @@
     <fullyQualifiedTypeName name="oo.heranca.teste.CarroTest"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="controle.for2"/>
+    <fullyQualifiedTypeName name="lambdas.Calculo"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="java.util.function.BinaryOperator"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="lambdas.Foreach"/>
+    <fullyQualifiedTypeName name="java.util.function.Predicate"/>
+    <fullyQualifiedTypeName name="lambdas.Produto"/>
 </qualifiedTypeNameHistroy>
