@@ -1,9 +1,9 @@
 package lambdas;
 //180 - Predicate
 public class Produto extends Object{//object extend por padrão em todas as clases java, implicito
-	final String nome;
-	final double preco;
-	final double desconto;
+	public final String nome;
+	public final double preco;
+	public final double desconto;
 	
 	
 	public Produto(String nome, double preco, double desconto) {
