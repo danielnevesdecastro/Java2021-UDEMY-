@@ -22,7 +22,7 @@ public class ChecadaVsNaoChecada {
 
 	// exception Não checada
 	static void geraErro1() {
-		throw new RuntimeException("Ocorreu um erro #01");// throw - lançar
+		throw new RuntimeException("Ocorreu um Erro #01");// throw - lançar
 	}
 
 	// exception Checada
