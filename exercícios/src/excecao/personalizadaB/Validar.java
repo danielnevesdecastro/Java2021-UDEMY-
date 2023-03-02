@@ -1,14 +1,14 @@
-package excecao.personalizadaA;
+package excecao.personalizadaB;
 
 import excecao.Aluno;
 
-//220 - Exception Personalizada , não checadas
+//221 - Exception personalizada, Checadas 
 public class Validar {
 
 	private Validar() {
 	}
-
-	public static void aluno(Aluno aluno) {
+	//221 - Exception tem que ser lançada explicamente; pq herda de exception e nao runtime 
+	public static void aluno(Aluno aluno) throws StringVaziaException,NumeroForaIntervaloException {
 			
 		if (aluno == null) {
 			throw new IllegalArgumentException("O aluno está Nulo");
