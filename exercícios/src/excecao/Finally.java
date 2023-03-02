@@ -16,11 +16,11 @@ public class Finally {
 		} finally {
 			System.out.println("Finalmente");
 		}
-
+		//Posso chamar só o finally
 		try {
 			System.out.println(7 / entrada.nextInt());
 		} finally {
-			System.out.println("finally #02...");
+			System.out.println("finalmente #02...");
 			entrada.close();
 		}
 
