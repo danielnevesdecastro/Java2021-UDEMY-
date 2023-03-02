@@ -2,7 +2,7 @@ package excecao.personalizadaA;
 
 import excecao.Aluno;
 
-//220 - Exception personalizada 
+//220 - Exception personalizada , não checadas
 public class Testevalidacoes {
 
 	public static void main(String[] args) {

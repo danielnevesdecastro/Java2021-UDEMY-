@@ -1,6 +1,6 @@
 package excecao.personalizadaA;
 
-//220 - Exception Personalizada 
+//220 - Exception Personalizada , não checadas
 @SuppressWarnings("serial")
 public class NumeroForaIntervaloException extends RuntimeException {
 	String nomeatributo;
