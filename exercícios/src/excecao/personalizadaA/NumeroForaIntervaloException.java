@@ -10,6 +10,6 @@ public class NumeroForaIntervaloException extends RuntimeException {
 	}
 
 	public String getMessage() {
-		return String.format("O Atributo %s está negativo", nomeatributo);
+		return String.format("O Atributo '%s' está fora do intervalo.", nomeatributo);
 	}
 }
