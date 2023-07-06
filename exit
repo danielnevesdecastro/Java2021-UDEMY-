@@ -1,0 +1,353 @@
+[33mcommit 6356eb8acb41cbf9585ab202d34bba586bc8708d[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Sat Mar 18 11:56:43 2023 -0300
+
+    Relação N pra N SQL
+
+[33mcommit 68e79b0ac195f74db09964b7ff656d9dbb6d9aba[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Sat Mar 18 11:13:40 2023 -0300
+
+    Join SQL
+
+[33mcommit 583f2990830c6f4f4495a0e08bb2ebfa253a9859[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Fri Mar 17 20:13:05 2023 -0300
+
+    Consultas SQL
+
+[33mcommit b84d97724569bd233f280a916bf520016873c6f0[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Fri Mar 17 18:06:59 2023 -0300
+
+    Agregacao SQL
+
+[33mcommit 9e7a94af69caaf565ba3b34382939ee43b0d7200[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Fri Mar 17 17:38:52 2023 -0300
+
+    Delete SQL
+
+[33mcommit 81134f832f438e1155a0ec1c119c39e70407e82a[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Fri Mar 17 17:28:29 2023 -0300
+
+    Update SQL
+
+[33mcommit 63a547ac7bde599f5a29b76f8cf6319ff5ee3450[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Fri Mar 17 17:17:03 2023 -0300
+
+    Consultas SQL
+
+[33mcommit a6960295c8c747060c5bd61aa319c7d6a450b6fd[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Thu Mar 16 20:50:41 2023 -0300
+
+    Create Table
+
+[33mcommit 07a7910518f327fd2a5055184a2b0433cb131b78[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Thu Mar 16 16:45:23 2023 -0300
+
+    Banco de dados Relacional
+
+[33mcommit 35ce8e4a28e90d4f47d6ff1ef476e209214cb60c[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Wed Mar 1 23:29:41 2023 -0300
+
+    Exeptions - Causas
+
+[33mcommit 5ac00d61850aaa7e8ec8d8b1685aea93df797f5c[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Wed Mar 1 23:15:56 2023 -0300
+
+    Exeptions - finally
+
+[33mcommit 7821dacb4f25741da22fa60eb24a7bcc63fc061a[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Wed Mar 1 23:07:15 2023 -0300
+
+    Checked Exceptions
+
+[33mcommit e1365d06c9ee40f427cc2272f774ca1de9f64cb6[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Wed Mar 1 22:57:59 2023 -0300
+
+    Exceptions Personalizadas
+
+[33mcommit 6ecb7f97245fe6bf5754268fe1e20e9085ba213a[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Wed Mar 1 14:20:55 2023 -0300
+
+    Exceptions
+
+[33mcommit 5be5d1d5fc2773a3ff4c5599dab87f2aff78959b[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Tue Feb 28 23:39:33 2023 -0300
+
+    Exceptions
+
+[33mcommit 1caae00f28f4822a95764cc24a2548a5dde482a2[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Sat Feb 25 22:32:09 2023 -0300
+
+    Métodos Streams
+
+[33mcommit 154c3a3853e74c9826daca0abbe7251f482ddb52[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Sat Feb 25 22:05:37 2023 -0300
+
+    Max / Min
+
+[33mcommit 1dd5901ccd214333ec134c92c281845c02504067[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Sat Feb 25 21:47:22 2023 -0300
+
+    Match
+
+[33mcommit 36a3aee23b8fd1da41692ee06bd3ce7bf82d20f9[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Sat Feb 25 21:23:10 2023 -0300
+
+    Reduce
+
+[33mcommit b9fcfa7484d9b31230daf01ae905d4826de63ea6[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Sat Feb 25 15:09:04 2023 -0300
+
+    Filter
+
+[33mcommit f69318bf807e340b9e281615f748d14a6bf09e4f[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Fri Feb 24 19:46:57 2023 -0300
+
+    Map
+
+[33mcommit 3f0c949e150beb99f4635985f980ec6594b6e3e0[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Fri Feb 24 17:32:56 2023 -0300
+
+    Built Stream
+
+[33mcommit 239651d9be35c38b387141dbfaf444a4cdddca54[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Wed Feb 22 18:47:42 2023 -0300
+
+    Stream
+
+[33mcommit 8f6cdac7d436c8d73958a440a134ff9e36fdd6ae[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Tue Feb 21 23:08:30 2023 -0300
+
+    Interfaces Funcionais antes do Java 8
+
+[33mcommit 3359de51dc0167a1d7f6b1b165b15d7a59fd786e[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Mon Feb 20 23:20:11 2023 -0300
+
+    BinaryOperator / Bifunction
+
+[33mcommit 905ba535a372c3a6c60f1a569026e865ac4bddc2[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Mon Feb 20 17:12:07 2023 -0300
+
+    Interfaces Funcionais
+
+[33mcommit b3ead8bd667cc8c0ea2e7fad9e7933dbb7148829[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Mon Feb 20 00:02:25 2023 -0300
+
+    Interfaces Funcionais
+
+[33mcommit bab2ac82e96c21b6f4b3ff86c3c956bb031c8c76[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Sun Feb 19 17:14:19 2023 -0300
+
+    Interfaces Funcionais
+
+[33mcommit 4aadb849b688b4d450188d5d3eb04e0528c32cd0[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Sun Feb 19 16:52:37 2023 -0300
+
+    Lambdas
+
+[33mcommit 7c42585c21e499761de42227757aa9247491f7e8[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Thu Feb 16 17:20:11 2023 -0300
+
+    API J
+
+[33mcommit 1e1a7f188eb2160e21baba1d308f3367fb178381[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Thu Feb 16 14:11:49 2023 -0300
+
+    OO - Classe Abstrata
+
+[33mcommit 7278237d2f3fe279c180be5eaced3a60db64e8d0[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Wed Feb 15 23:44:40 2023 -0300
+
+    OO - Interface
+
+[33mcommit 2b7320121e522de48b6427e8d3f319fc9b3f6372[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Wed Feb 15 13:47:48 2023 -0300
+
+    OO - Polimorfismo
+
+[33mcommit 5d730855e6156fa8f978a2ae9832b25e4ded57e1[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Wed Feb 15 01:38:28 2023 -0300
+
+    OO - Encapsulamento - Getters e Setters
+
+[33mcommit 7ce07ec9bddedcd3ee901105022f0cc7bc671c56[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Wed Feb 15 01:31:48 2023 -0300
+
+    OO - Encapsulamento - Getters e Setters
+
+[33mcommit e9463afd7c276bd2d9e9987fbb145d2c023a5d73[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Wed Feb 15 01:08:12 2023 -0300
+
+    OO - Encapsulamento -  Desafio modificadores de acesso
+
+[33mcommit 3a32c83c9da9b1166701c80fa6788bd2da00a2bf[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Tue Feb 14 23:59:44 2023 -0300
+
+    OO - Encapsulamento - modificadores de acesso
+
+[33mcommit 864f27346e3a9cb90959553edabcdc2de6531b9c[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Tue Feb 14 19:18:42 2023 -0300
+
+    OO - Desafio Herança com Construtor Explicito
+
+[33mcommit d3b7fa159635b7f9eb0dda507d94668ad25ca35c[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Tue Feb 14 18:29:29 2023 -0300
+
+    OO - Desafio Herança
+
+[33mcommit 2e592df108c565700d256652621b4e612724f8b2[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Tue Feb 14 17:34:55 2023 -0300
+
+    OO - Herança
+
+[33mcommit 7746f651bae72753a6d65e91c5b1265a296a9d98[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Tue Feb 14 16:45:21 2023 -0300
+
+    OO - Enum
+
+[33mcommit becbc1796b6fbdf473eacb6b31aa055ea05dcc8c[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Sat Feb 11 13:48:02 2023 -0300
+
+    OO - Composição - Desafio
+
+[33mcommit 2e41fe3dfabed29063296504c320b2305e08164a[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Fri Feb 10 16:05:25 2023 -0300
+
+    OO - Composição - Desafio
+
+[33mcommit 91d7c8c90ffa579c11b0cc03dc9cc9424c3430db[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Fri Feb 10 15:06:52 2023 -0300
+
+    OO - Composição
+
+[33mcommit b42c04cc24aa5edcd4e2f56dd56df672ccc526d1[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Sun Feb 5 19:50:37 2023 -0300
+
+    Map
+
+[33mcommit 1d20f1fd4bc50850a56892c1af1badcbea92bb2a[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Sun Feb 5 18:57:40 2023 -0300
+
+    Queue / Fila
+
+[33mcommit d61feb03dcbbd8f7bbbc7e861d19e00c308fd190[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Thu Feb 2 23:22:12 2023 -0300
+
+    Collections
+
+[33mcommit c1b3cd0a9ba008ae71015ae177d4b7b019157a1d[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Tue Jan 31 23:18:27 2023 -0300
+
+    Collections - Set
+
+[33mcommit cd1067a314d26e7325a1ab9e9a409be67ae1bb62[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Mon Jan 30 23:43:30 2023 -0300
+
+    Equals / Hashcode
+
+[33mcommit fbb308c51dd0b9404ab569c72f417b96a5612351[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Sun Jan 29 01:06:35 2023 -0300
+
+    Equals / Hashcode
+
+[33mcommit edba19636a08ce422d2f1cd68f14f6a96ea38e0f[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Sat Jan 28 00:06:41 2023 -0300
+
+    Matriz
+
+[33mcommit 851b6244b620f1e62582e1627d850c78f6e68e6a[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Fri Jan 27 14:55:57 2023 -0300
+
+    Arrays e Collections
+
+[33mcommit c6266ca0c977444cc4ed8c970baeadcf4c87da7b[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Thu Jan 26 16:25:09 2023 -0300
+
+    Update Pacotes
+
+[33mcommit 50610ed39ecd18b2edc5f421099d285b9e0f9290[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Thu Jan 26 13:41:12 2023 -0300
+
+    Desafio classe
+
+[33mcommit a7e9e330e46ef8b50a2c9103a88efdb8d9f06376[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Thu Jan 26 11:15:32 2023 -0300
+
+    Update pacote Desafios
+
+[33mcommit e05daa3c912f6c468f523cf91ca2eb84da9d6a2a[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Thu Jan 26 11:05:35 2023 -0300
+
+    Null
+
+[33mcommit e630b8c2486975c8395ecaf206d1ae463776a88a[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Wed Jan 25 21:48:38 2023 -0300
+
+    This / This()
+
+[33mcommit 9db353d1bcf4e60976cc4f2927e2121a90f71d66[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Wed Jan 25 16:41:52 2023 -0300
+
+    Atribuição: Valor vs Referência
+
+[33mcommit d31aba6241a435deec2654d1260c363948bdb063[m
+Author: Daniel Neves <danielnevesdecastro@gmail.com>
+Date:   Tue Jan 24 14:23:20 2023 -0300
+
+    Desafio Membros da classe vs instância
